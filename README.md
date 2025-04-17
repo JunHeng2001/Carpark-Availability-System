@@ -54,19 +54,19 @@ From dataset on carpark information
   - If carpark is sheltered
   - Closest weather station
 
-Function
+# Function
 - Takes in user input: destination
 - Use Google Maps to find carparks near destination (Get a Google Maps API key from Google Cloud Platform
 
-Backend function: Train ML
+# Backend function: Train ML
 - MLP Models trained on time and rain events for availability of every carpark
 - From dataset on carpark availability and dataset on weather
 
-Forecast hourly carpark availability given a future time and weather condition
+# Forecast hourly carpark availability given a future time and weather condition
 - Takes in user input: eta, weather
 - ML model: MLP regressor
 
-Frontend function: Take in user input
+# Frontend function: Take in user input
 - Destination
 - Use google maps to check if destination is in Singapore
 - Estimated time of arrival (ETA) at destination
